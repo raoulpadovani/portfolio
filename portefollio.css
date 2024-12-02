@@ -1,0 +1,134 @@
+
+.nom{ display: flex;
+   justify-content: center;
+    color: rgb(245, 240, 240);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #000000, #0a0a0a); /* Fond dégradé noir */
+            color: white;
+            text-align: center;}
+        .ligne{
+            display:flex;
+            justify-content: space-evenly;
+            border: 2px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
+            border-radius: 30px; /* Coins arrondis */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Ombre élégante */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;      
+    box-shadow: 0 8px 20px rgba(49, 10, 222, 0.7); /* Accentuation de l'ombre */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards;
+    
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 0, 255, 0.6)
+        };
+.loisir{
+    display: flex;
+    justify-content:end;
+}
+.cuisine{
+    display:flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
+    border-radius: 30px; /* Coins arrondis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Ombre élégante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;      
+box-shadow: 0 8px 20px rgba(251, 7, 7, 0.7); /* Accentuation de l'ombre */
+opacity: 0;
+transform: translateY(20px);
+animation: fadeIn 1s ease-out forwards;}
+h2{
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(195, 54, 32, 0.8), 0 0 30px rgba(255, 34, 0, 0.6)
+}
+
+.loisir .jeux{
+    display:flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(237, 5, 206, 0.5);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards;}
+    h3{
+        font-size: 3rem;
+        color: #ffffff;
+        text-shadow: 0 0 15px rgba(236, 21, 247, 0.995), 0 0 30px rgb(129, 4, 133)
+    };
+    .reseaux{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    @media (max-width: 768px) {
+        /* Styles pour tablettes */
+    }
+    
+    @media (max-width: 480px) {
+        /* Styles pour téléphones */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media (max-width: 768px) {
+                .portfolio-images {
+                    flex-direction: column; /* Empile les images en colonne */
+                    gap: 15px; /* Espacement réduit */
+                }
+            
+                h1 {
+                    font-size: 2rem; /* Taille du titre réduite */
+                }
+            }
