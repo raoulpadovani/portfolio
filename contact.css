@@ -1,4 +1,3 @@
-
 .tete{
   position: sticky;
   top: 0;
@@ -102,5 +101,68 @@
           @media (min-width: 1025px) {
             /* Styles spécifiques pour les grands écrans */
           }
-    
-        
+
+/* Media Query pour petits écrans */
+@media (max-width: 768px) {
+    .tete {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .tete a {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    input[type="text"], input[type="email"], textarea {
+        font-size: 14px;
+    }
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Media Query pour tablettes */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tete {
+        padding: 10px 20px;
+    }
+    .tete a {
+        font-size: 18px;
+    }
+    form {
+        width: 70%;
+    }
+    input[type="text"], input[type="email"], textarea {
+        font-size: 16px;
+    }
+    input[type="submit"] {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+/* Media Query pour grands écrans */
+@media (min-width: 1025px) {
+    .tete {
+        padding: 10px 16px;
+    }
+    .tete a {
+        font-size: 20px;
+    }
+    form {
+        width: 300px;
+    }
+    input[type="text"], input[type="email"], textarea {
+        font-size: 16px;
+    }
+    input[type="submit"] {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
