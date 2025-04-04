@@ -118,7 +118,7 @@ h1{
     flex-shrink: 0; /* Empêche les cartes de rétrécir */
 }
 
-  .card img{
+.card img{
     width: 200px;
     height: 200px;
     border-radius: 20%;
