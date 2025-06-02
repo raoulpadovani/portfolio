@@ -1,78 +1,310 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="fonction.js" defer></script>
-    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <div class="tete">
-                <a href="index.html">ACCUEIL</a>
-                <a href="projets.html">PROJET</a>
-                <a href="contact.php">CONTACT</a>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">PR.</div>
+                <nav class="nav-desktop">
+                    <a href="#">Accueil</a>
+                    <a href="#apropos" >A propos</a>
+                    <a href="#competence" >Competences</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
-    <h1>COMPETENCES</h1><br><br>
-    <section class="co">
-        <div><img src="https://img.icons8.com/?size=512&id=44328&format=png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/c.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/js.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/html.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/css.png" alt="logo c" class="src"  /></div>
-    </section> <br><br>
 
-    <section class="c">
-        <img src="asset/logo/mysql.png" alt="logo c" class="src"  />
-        <img src="asset/logo/php.png" alt="logo c" class="src"  />
-        <img src="asset/logo/boostrap.png" alt="logo c" class="src"  />
-        <img src="asset/logo/taiil.jpg" alt="logo c" class="src"  />
-        <img src="asset/logo/materializecss.png" alt="logo c" class="src"  />
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <div class="container">
+            <img src="asset/image/profil.png" alt="Photo de profil" class="profile-img">
+            <h1>Bonjour, je m'appelle <span style="color: #c03b9a;">Padovani Raoul</span></h1>
+            <h2 class="typing-effect"> <p >Recherche une Alternance en web</p></h2>
+        </div>
     </section>
-    <section class="tel">
-        <div><img src="https://img.icons8.com/?size=512&id=44328&format=png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/c.png" alt="logo c" class="src"  /></div>
-    </section><br><br>
-    <section class="tel">
-        <div><img src="asset/logo/js.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/taiil.jpg" alt="logo c" class="src"  /></div>
-    </section><br><br>
-    <section class="tel">
-        <div><img src="asset/logo/css.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/html.png" alt="logo c" class="src"  /></div>
-    </section><br><br>
-    <section class="tel">
-        <div><img src="asset/logo/php.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/mysql.png" alt="logo c" class="src"  /></div>
-    </section><br><br>
-    <section class="tel">
-        <div><img src="asset/logo/boostrap.png" alt="logo c" class="src"  /></div>
-        <div><img src="asset/logo/materializecss.png" alt="logo c" class="src"  /></div>
-    </section><br><br>
-        
-    <h1>EN COURS D'ACQUISITION </h1><br><br>
-    <section class="co">
-        <img src="asset/logo/logo-react.svg" alt="logo c" class="src"  />
-        <img src="asset/logo/symfony.png" alt="logo c" class="src"  />
-        <img src="asset/logo/node js.png" alt="logo c" class="src"  />
-        <img src="asset/logo/uml.jpg" alt="logo c" class="src"  />
-    </section> <br><br>
-    <section class="smart">
-        <img src="asset/logo/logo-react.svg" alt="logo c" class="src"  />
-        <img src="asset/logo/symfony.png" alt="logo c" class="src"  />
-    </section><br><br>
-    <section class="smart">
-        <img src="asset/logo/node js.png" alt="logo c" class="src"  />
-        <img src="asset/logo/uml.jpg" alt="logo c" class="src"  />
-    </section> <br><br>
 
+    <!-- Section À propos -->
+    <section id="apropos">
+        <div class="container">
+            <h3 >À propos de moi</h3>
+            
+            <div class="about-box">
+                <h3>Qui suis-je ?</h3>
+                <p>
+                    Je suis développeur web en formation à La Plateforme, une école tech à Marseille.
+                    💻 Ce que j’aime ? Créer des sites qui fonctionnent vraiment : clairs, rapides, interactifs, utiles. J’ai déjà développé plusieurs projets en PHP (dont un site de quiz) et en JavaScript (comme un petit jeu clicker), en travaillant à la fois sur le front-end et le back-end.
+                    🎯 Mon objectif : progresser chaque jour, apprendre en situation réelle, et intégrer une entreprise où je pourrai contribuer à des projets concrets.
+                    📚 Curieux, appliqué, et toujours prêt à tester de nouvelles idées, je suis à la recherche d’une alternance en développement web pour monter en compétences et relever de vrais défis.
+                </p><br>
+                
+                <div >
+                    <div class="info-item">
+                        <div class="info-icon">N</div>
+                        <div>
+                            <h4 >Nom</h4>
+                            <p  >Padovani raoul</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">L</div>
+                        <div>
+                            <h4 >Localisation</h4>
+                            <p  >Marseille</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">T</div>
+                        <div>
+                            <h4 >Téléphone</h4>
+                            <p id="competence" >07-83-41-60-52</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div >
+        <h3 >Compétences</h3>
+    <div class="about-box2">
+        <section class="skills">
+            <div class="skills-col">
+                <div class="tech-badges">
+                    <span class="tech-badge html-badge">HTML</span>
+                    <span class="tech-badge css-badge">CSS</span>
+                    <span class="tech-badge js-badge">JavaScript</span>
+                    <span class="tech-badge php-badge">PHP</span>
+                    <span class="tech-badge mysql-badge">MySQL</span>
+                    <span class="tech-badge react-badge">React</span>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+
+     <main class="container">
+        <h3 class="main-title" id="projets">Mes Projets</h3>
+        
+        <div class="projects-grid">
+            <!-- Projet 1 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Fansite</h3>
+                    <img src="asset/image/fan site .png" alt="Fansite project" class="project-image">
+                    <p class="project-description">Création de mon premier site internet avec mises à jour biographie et discographie.</p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 html-badge2">HTML</span>
+                        <span class="tech-badge css-badge2">CSS</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/raoulpadovani/fan-site" target="_blank">
+                            <button class="project-button">Code</button>
+                        </a>
+                        <a href="https://raoulpadovani.github.io/fan-site/" target="_blank">
+                            <button class="project-button">Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 2 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Matcha&co</h3>
+                    <img src="asset/image/matcha.png" alt="Matcha&co project" class="project-image">
+                    <p class="project-description">Création d'un site e-commerce avec fonctionnalité de connexion.
+
+                    </p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 html-badge2">HTML</span>
+                        <span class="tech-badge3 css-badge2">CSS</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/raoulpadovani/matcha-co" target="_blank">
+                            <button class="project-button">Code</button>
+                        </a>
+                        <a href="https://raoul-padovani.students-laplateforme.io/matcha-co/" target="_blank">
+                            <button class="project-button">Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 3 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Livre d'or</h3>
+                    <img src="asset/image/livre.png" alt="Livre d'or project" class="project-image">
+                    <p class="project-description">Création d'un livre d'or avec commentaires, fonctionnalité de connexion et d'inscrip.</p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 html-badge2">HTML</span>
+                        <span class="tech-badge3 css-badge2">CSS</span>
+                        <span class="tech-badge3 php-badge2">PHP</span>
+                        <span class="tech-badge3 mysql-badge2">MySQL</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://raoul-padovani.students-laplateforme.io/livre/" target="_blank">
+                            <button class="project-button">Code</button>
+                        </a>
+                        <a href="https://raoul-padovani.students-laplateforme.io/livre/index.php" target="_blank">
+                            <button class="project-button">Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 4 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Quizapp</h3>
+                    <img src="asset/image/quizz.png" alt="Quizapp project" class="project-image">
+                    <p class="project-description">Création d'une application de quiz avec panneau d'administration, questions.</p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 html-badge2">HTML</span>
+                        <span class="tech-badge3 css-badge2">CSS</span>
+                        <span class="tech-badge3 php-badge2">PHP</span>
+                        <span class="tech-badge3 mysql-badge2">MySQL</span>
+                        
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/raoulpadovani/quizapp" target="_blank">
+                            <button class="project-button">Code</button>
+                        </a>
+                        <a href="https://raoul-padovani.students-laplateforme.io/quizz/" target="_blank">
+                            <button class="project-button">Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 5 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Mineclick</h3>
+                    <img src="asset/image/clicker.png" alt="Mineclick project" class="project-image">
+                    <p class="project-description">Création d'un jeu de clicker sur le thème de Minecraft.</p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 html-badge2">HTML</span>
+                        <span class="tech-badge3 css-badge2">CSS</span>
+                        <span class="tech-badge3 js-badge2">JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/raoulpadovani/clicker/tree/raoul" target="_blank">
+                            <button class="project-button">Code</button>
+                        </a>
+                        <a href="https://raoul-padovani.students-laplateforme.io/clicker/" target="_blank">
+                            <button class="project-button">Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 6 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Nexly</h3>
+                    <img src="asset/image/nexly.png" alt="Nexly project" class="project-image">
+                    <p class="project-description">Création d'une cinetech avec une API Designe à la netflix.</p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 html-badge2">HTML</span>
+                        <span class="tech-badge3 css-badge2">CSS</span>
+                        <span class="tech-badge3 js-badge2">JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/raoulpadovani/cinetech/tree/serie" target="_blank">
+                            <button class="project-button">Code</button>
+                        </a>
+                        <a href="https://raoul-padovani.students-laplateforme.io/cinetech/" target="_blank">
+                            <button class="project-button">Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Carte vide 1 -->
+            <div class="project-card loading-card">
+                <div class="loading-content">
+                    <div class="loading-title"></div>
+                    <div class="loading-image">
+                        <img src="asset/logo/giphy.gif" alt="Coming soon" >
+                    </div>
+                    <div class="loading-description"></div>
+                    <div class="project-buttons">
+                        <button class="loading-button" disabled>Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Carte vide 2 -->
+            <div class="project-card loading-card">
+                <div class="loading-content">
+                    <div class="loading-title"></div>
+                    <div class="loading-image">
+                        <img src="asset/logo/giphy.gif" alt="Coming soon" >
+                    </div>
+                    <div class="loading-description"></div>
+                    <div class="project-buttons">
+                        <button class="loading-button" disabled>Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Carte vide 3 -->
+            <div class="project-card loading-card">
+                <div class="loading-content">
+                    <div class="loading-title"></div>
+                    <div class="loading-image">
+                        <img src="asset/logo/giphy.gif" alt="Coming soon" >
+                    </div>
+                    <div class="loading-description"></div>
+                    <div class="project-buttons">
+                        <button class="loading-button" disabled>Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <h3 class="main-title" id="contact">Me contacter</h3>
+        <section id="contact">
+                <form action="https://formspree.io/f/xzzrnpno" method="POST">
+                    <label>
+                        <input type="nom" name="nom" placeholder="Votre nom" required>
+                    </label>
+                    <label>
+                        <input type="email" name="email"placeholder="Votre email" required>
+                    </label>
+                    <label>
+                        <textarea name="message" placeholder="Votre message" required></textarea>
+                    </label>
+                    <button id="sub" type="submit">Envoyer message</button>
+                </form>
+        </section>
+
+    </section>
+
+    
+
+   
+
+        
+
+    <!-- Pied de page -->
     <footer>
-        <a href ="https://www.linkedin.com/in/raoul-padovani-3a7b23256/"target="_blank"><img src="asset/logo/linkedin.png" alt="logo c" class="src" /></a>
+        <div id="container">
+            <p>&copy; <span id="year"></span> Padovani Raoul. Tous droits réservés.</p>
+        </div>
+         <a href ="https://www.linkedin.com/in/raoul-padovani-3a7b23256/"target="_blank"><img src="asset/logo/linkedin.png" alt="logo c" class="src" /></a>
         <a href ="https://github.com/raoulpadovani"target="_blank"><img src="asset/logo/git.png" alt="logo c" class="src" /></a>
         <a href ="https://www.instagram.com/c0dw0lf/"target="_blank"><img src="asset/logo/insta.png" alt="logo c" class="src" /></a>
-        <a href ="contact.php"target="_blank"><img src="asset/logo/contact.png" alt="logo c" class="src" /></a>
+        
     </footer>
+
+    
 </body>
 </html>
