@@ -1,6 +1,8 @@
 *{
     font-family: Arial, sans-serif;
 }
+
+
 body {
             
             margin: 0;
@@ -475,7 +477,7 @@ p{
             background: linear-gradient(45deg, #3b82f6, #8b5cf6);
             color: white;
             box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3);
-            margin-left: 45%;
+            margin-left: 43%;
         }
         
         #sub:hover {
