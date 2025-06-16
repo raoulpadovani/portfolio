@@ -144,19 +144,17 @@ p{
   to { width: 500px; }
 }
 
-        #apropos {
-            background: #f8f9fa;
-        }
+        
         
         .about-box {
-            background: white;
+            
             padding: 30px;
             border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         /*comp*/
         .about-box2 {
-            background: white;
+            
             padding: 10px;
             border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -261,7 +259,41 @@ p{
             margin-bottom: 40px;
         }
         
-        /* Carte de projet */
+        /* Carte comptence */
+        .project-card2 {
+            background-color: white;
+            border-radius: 10px;
+            
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .project2:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .project-content2 {
+            padding: 10px;
+        }
+        .badge{
+            background-color: #bac5fb;
+            color: #9576da;
+        }
+         .badge2{
+            background-color: #bac5fb;
+            color: #9576da;
+        }
+         .badge3{
+            background-color: #bac5fb;
+            color: #9576da;
+        }
+
+
+
+
+         /* Carte projet */
         .project-card {
             background-color: white;
             border-radius: 10px;
@@ -428,10 +460,9 @@ p{
         margin-top: -8%;
         padding: 20px;
         border-radius: 5px;
-        background-color: white;
         border-radius: 10px;
         overflow: hidden;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
      }
 
      

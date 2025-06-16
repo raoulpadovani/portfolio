@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
@@ -34,12 +35,12 @@
     </section>
 
     <!-- Section À propos -->
-    <section id="apropos"  data-aos="fade-up">
+    <section id="apropos">
         <div class="container">
-            <h3 >À propos de moi</h3>
+
             
             <div class="about-box" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
-                <h3>Qui suis-je ?</h3>
+                <h3>À propos de moi</h3>
                 <p>
                     Je suis développeur web en formation à La Plateforme, une école tech à Marseille.
                     💻 Ce que j’aime ? Créer des sites qui fonctionnent vraiment : clairs, rapides, interactifs, utiles. J’ai déjà développé plusieurs projets en PHP (dont un site de quiz) et en JavaScript (comme un petit jeu clicker), en travaillant à la fois sur le front-end et le back-end.
@@ -75,24 +76,64 @@
             </div>
         </div >
         <h3 >Compétences</h3>
-    <div class="about-box2" data-aos="fade-up"  >
-        <section class="skills">
-            <div class="skills-col">
-                <div class="tech-badges">
-                    <span class="tech-badge html-badge">HTML</span>
-                    <span class="tech-badge css-badge">CSS</span>
-                    <span class="tech-badge js-badge">JavaScript</span>
-                    <span class="tech-badge php-badge">PHP</span>
-                    <span class="tech-badge mysql-badge">MySQL</span>
-                    <span class="tech-badge react-badge">React</span>
+    
+        <main class="container">
+        
+        <div class="projects-grid" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1500">
+            <!-- Projet 1 -->
+            <div class="project-card2">
+                <div class="project-content2">
+                    <h3 class="project-title">Développement Frontend <i class="fas fa-code text-blue-500 text-2xl"></i></h3>
+                    
+                    <p class="project-description">Création d'interfaces utilisateur réactives et accessibles avec les dernières technologies.</p>
+
+                    </p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 badge">HTML</span>
+                        <span class="tech-badge3 badge">CSS</span>
+                        <span class="tech-badge3 badge">JavaSCRIPT</span>
+                        <span class="tech-badge3 badge">REACT</span>
+                    </div>
+                   
+                </div>
+            </div>
+              <div class="project-card2">
+                <div class="project-content2">
+                    <h3 class="project-title">Développement Backend  <i class="fas fa-server text-indigo-500 text-2xl"></i></h3>
+                    
+                    <p class="project-description">Conception de bases de données fiables et sécurisées pour soutenir vos site.</p>
+
+                    </p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 badge2">PHP</span>
+                        <span class="tech-badge3 badge2">MYSQL</span>
+                        <span class="tech-badge3 badge2">NODE.JS</span>
+                    </div>
+                   
+                </div>
+            </div>
+              <div class="project-card2">
+                <div class="project-content2">
+                    <h3 class="project-title">Design UI/UX  <i class="fas fa-paint-brush text-purple-500 text-2xl"></i></h3>
+                    
+                    <p class="project-description">Conception d'expériences utilisateur intuitives et esthétiques pour vos projets.</p>
+
+                    </p>
+                    <div class="tech-badges3">
+                        <span class="tech-badge3 badge3">FIGMA</span>
+                        <span class="tech-badge3 badge3">CANVA</span>
+                    </div>
+                   
                 </div>
             </div>
             
+            
         </section>
-    </div>
+    </section>
 
+    <section id="projets">
      <main class="container">
-        <h3 class="main-title" id="projets">Mes Projets</h3>
+        <h3 class="main-title">Mes Projets</h3>
         
         <div class="projects-grid" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1500">
             <!-- Projet 1 -->
@@ -284,6 +325,12 @@
             </div>
         </div>
         </div>
+
+    </section>
+    
+
+
+
         <h3 class="main-title" id="contact">Me contacter</h3>
         <section id="contact" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
                 <form action="https://formspree.io/f/xzzrnpno" method="POST">
@@ -299,8 +346,8 @@
                     <button id="sub" type="submit">Envoyer message</button>
                 </form>
         </section>
+    
 
-    </section>
 
     
 
@@ -320,6 +367,8 @@
     </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
 <script>
   AOS.init({
     duration: 1000,
