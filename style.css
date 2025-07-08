@@ -14,7 +14,6 @@ body {
         
         header {
             background: rgba(255, 255, 255, 0.2);
-            border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(5px);
             -webkit-backdrop-filter: blur(5px);
@@ -37,12 +36,14 @@ body {
             display: flex;
             justify-content: center;
             gap: 20px;
+            
         }
         footer img {
             width: 30px;
             height: 30px;
             
         }
+        
         #accueil {
             background: url('asset/image/style.jpeg') no-repeat center center/cover;
             
@@ -58,7 +59,7 @@ body {
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
-            background: linear-gradient(90deg, #d348d6, #8b5cf6);
+            background: linear-gradient( #b4bedb, #4899c1);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -70,7 +71,7 @@ body {
         }
         
         .nav-desktop a {
-            color: #a91796;
+            color: #4898d6;
             transition: color 0.3s;
             list-style: none;
             text-decoration: none;
@@ -735,10 +736,14 @@ p{
         
        
         footer {
-            background: #f1f1f1;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 20px 0;
             text-align: center;
-            color: #666;
+            color: black;
         }
 
         
