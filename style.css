@@ -11,6 +11,11 @@ body {
             line-height: 1.6;
             
         }
+
+        .titre{
+            color: white;
+        }
+        
         
         header {
             background: rgba(255, 255, 255, 0.2);
@@ -868,6 +873,11 @@ p{
     footer img {
         width: 24px;
         height: 24px;
+    }
+    .typing-effect {
+        animation: none !important;
+        border-right: none !important;
+        width: auto !important;
     }
 }
 
