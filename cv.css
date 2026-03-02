@@ -1,0 +1,116 @@
+.cv-container {
+    position: relative;
+    min-height: 100vh;
+    padding: 120px 3% 50px;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cv-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.cv-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.cv-item {
+    background: rgba(26, 31, 58, 0.3);
+    border: 1px solid rgba(232, 184, 112, 0.1);
+    border-radius: 20px;
+    padding: 1.5rem;
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cv-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+.cv-iframe-wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 280px);
+    min-height: 700px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+}
+
+.cv-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem 1.5rem;
+    background: rgba(26, 31, 58, 0.5);
+    border: 1px solid rgba(232, 184, 112, 0.2);
+    border-radius: 50px;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateX(-5px);
+}
+
+@media (max-width: 1200px) {
+    .cv-content {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-iframe-wrapper {
+        height: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cv-header h1 {
+        font-size: 2rem;
+    }
+
+    .cv-container {
+        padding: 100px 5% 30px;
+    }
+
+    .cv-iframe-wrapper {
+        height: 600px;
+    }
+}
