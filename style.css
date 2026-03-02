@@ -630,14 +630,7 @@ section {
     display: flex;
     flex-direction: column;
 }
-.contact-info-card p {
-color: var(--text-muted);
-    font-size: 1rem;
-    line-height: 1.6;
-    text-decoration: none;
-    font-style: none;
-    style
-}
+
 
 .contact-info-card h2 {
     font-family: 'Playfair Display', serif;
